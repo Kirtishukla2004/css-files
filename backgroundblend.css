@@ -1,0 +1,37 @@
+/*even used border properties  like :
+1.boder style
+border width
+border color*/
+
+* {
+    margin: 0ch;
+    padding: 0ch;
+    background-image: linear-gradient( rgb(255, 165, 0, .5), rgb(255, 255, 255, .5), rgb(0, 128, 0, .5));
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background: url(image/solider.jfif), url(image/india.jfif), url(image/modi.jfif), linear-gradient(orange, rgb(255, 255, 255), rgb(0, 185, 0));
+    background-size: contain;
+    background-blend-mode: darken;
+    background-position: 80% 30%;
+    background-repeat: no-repeat;
+}
+
+.wish {
+    width: 1000px;
+    margin: 300px auto 0px auto;
+    border-style: outset;
+    border-width: 40px 40px;
+    border-color: orange white green;
+}
+
+.wish h1,
+p {
+    margin: 20px;
+    padding: 10px 0px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
