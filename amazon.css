@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ama {
+    background-color: rgb(19, 25, 33);
+    color: white;
+    justify-content: space-between;
+}
+
+nav {
+    /*isliye hota h taki hum content ki fella sake */
+    width: 100%;
+    /*saare cotent ke bich me margin matlab space banana*/
+    justify-content: space-between;
+    /*taki content ke bich me side me uper niche space create ho sake */
+}
+
+nav img {
+    width: 150px;
+    letter-spacing: 20px;
+}
+
+nav ul li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    /*this is only for list*/
+    list-style: none;
+    margin: 5px 10px;
+    margin-top: 0;
+    margin-inline-start: 50px;
+    font-weight: 600;
+    /*uper niche */
+}
+
+.dropdown1 {
+    size: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /*here text deco me line through isliye h taki text ko kaat sake  overline hota h taki content ke uper ek line aa jaye*/
+    color: rgb(255, 249, 249);
+    font-weight: bold;
+    /*yahan par isliyh taki pata rhe ki kitna bold karna h */
+}
+
+.dropdown2 {
+    background-color: rgb(35, 47, 62);
+}
+
+.iimain {
+    height: 30%;
+}
+
+hr {
+    width: 50%;
+    size: 70px;
+    margin-top: 10%;
+    color: white;
+    margin-right: 30px;
+    font-weight: bold;
+    line-height: 50%;
+}
+
+.all {
+    margin-inline-start: 20px;
+    height: 30%;
+    font-weight: bold;
+}
+
+a:hover {
+    border: 2px white solid;
+    box-shadow: 20px;
+}
