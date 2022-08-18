@@ -1,1 +1,31 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link rel="stylesheet" href="shinchain.css"></head><body><div class="main"><h1>shinchain</h1></div><div class="gif"><img src="image/dance.gif" alt=""><img src="image/hhhhh.gif" alt=""><img src="image/shiro.gif" alt=""></div></body></html>
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(image/home.png);
+    width: 50vh;
+    height: 50em;
+    background-size: 100% 100%;
+}
+
+.main {
+    margin: 0% 80%;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 5rem;
+    padding-left: 60%;
+    padding-top: 40%;
+    animation: theme 6s 1s 6;
+}
+
+@keyframes theme {
+    0% {
+        font-size: 3em;
+    }
+    100% {
+        font-size: 6em;
+        left: 40%;
+    }
+}
