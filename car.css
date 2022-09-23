@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*adding background to section
+  and animation named color-change*/
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/thunder.gif);
+    background-size: cover;
+    background-position: 100%;
+    animation: color-change 10s linear infinite;
+    animation-delay: 1s;
+}
+
+
+/*adding rain img and making opacity 0*/
+
+section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20200828184719/rain-300x300.png);
+    animation: rain 0.4s linear infinite;
+    opacity: 0;
+}
+
+
+/* just changing the position of image 
+  of rain using keyframes*/
+
+@keyframes rain {
+    0% {
+        background-position: 0 0;
+        opacity: 1;
+    }
+    100% {
+        background-position: 8% 80%;
+        opacity: 1;
+    }
+}
+
+
+/* applying filter at different angle
+  on diffrent interval using keyframe*/
+
+@keyframes color-change {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
