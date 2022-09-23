@@ -12,7 +12,7 @@
 
 .mario {
     position: absolute;
-    bottom: 150px;
+    bottom: 145px;
     animation-name: mariorun;
     animation-duration: 6s;
     animation-iteration-count: 5;
