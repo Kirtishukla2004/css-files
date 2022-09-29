@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.back{
+    margin: 0%;
+    background-color:black ;
+    color: aliceblue;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+}
+.back .a {
+    color: aliceblue;
+}
+.main{
+   margin-top: 5%;
+   padding-left: 40%;
+   padding-right: 25%;
+   background-color: black;
+   color: aliceblue;
+   border: 10px solid rgba(255, 255, 255, 0.301);
+   font-size: 100%;
+   font-weight: bold;
+   font-style: oblique;
+     
+    
+}
+p{
+    margin: 0px 20px 0px 5px;
+    font-size: 30px;
+    background-color: rgba(63, 63, 63, 0.551);
+    font-weight: bold;
+box-decoration-break: clone;
+font-style: oblique;
+
+}
+h2{
+    position: absolute;
+    top: 30%;
+}
+.list{
+    position:absolute;
+    top: 35%;
+}
+span{
+    position: absolute;
+    top: 150%;
+}
