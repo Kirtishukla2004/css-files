@@ -1,77 +1,148 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #00000000;
 }
 
 .ama {
-    background-color: rgb(19, 25, 33);
-    color: white;
-    justify-content: space-between;
+  background-color: rgb(19, 25, 33);
+  color: white;
+  justify-content: space-between;
 }
 
 nav {
-    /*isliye hota h taki hum content ki fella sake */
-    width: 100%;
-    /*saare cotent ke bich me margin matlab space banana*/
-    justify-content: space-between;
-    /*taki content ke bich me side me uper niche space create ho sake */
+  /*isliye hota h taki hum content ki fella sake */
+  width: 100%;
+  /*saare cotent ke bich me margin matlab space banana*/
+  justify-content: space-between;
+  /*taki content ke bich me side me uper niche space create ho sake */
 }
 
 nav img {
-    width: 150px;
-    letter-spacing: 20px;
+  width: 150px;
+  letter-spacing: 10px;
 }
 
 nav ul li {
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: inline-block;
-    /*this is only for list*/
-    list-style: none;
-    margin: 5px 10px;
-    margin-top: 0;
-    margin-inline-start: 50px;
-    font-weight: 600;
-    /*uper niche */
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: inline-block;
+  /*this is only for list*/
+  list-style: none;
+  margin: 4px 8px;
+  margin-top: 0;
+  margin-inline-start: 50px;
+  font-weight: 600;
+  /*uper niche */
 }
-
-.dropdown1 {
-    size: 30px;
+select {
+  width: 300px;
+  height: 30px;
+  background-color: antiquewhite;
 }
 
 nav ul li a {
-    text-decoration: none;
-    /*here text deco me line through isliye h taki text ko kaat sake  overline hota h taki content ke uper ek line aa jaye*/
-    color: rgb(255, 249, 249);
-    font-weight: bold;
-    /*yahan par isliyh taki pata rhe ki kitna bold karna h */
+  text-decoration: none;
+  /*here text deco me line through isliye h taki text ko kaat sake  overline hota h taki content ke uper ek line aa jaye*/
+  color: rgb(255, 249, 249);
+  font-weight: bold;
+  /*yahan par isliyh taki pata rhe ki kitna bold karna h */
 }
 
 .dropdown2 {
-    background-color: rgb(35, 47, 62);
+  background-color: rgb(35, 47, 62);
 }
 
 .iimain {
-    height: 30%;
+  height: 30%;
 }
 
 hr {
-    width: 50%;
-    size: 70px;
-    margin-top: 10%;
-    color: white;
-    margin-right: 30px;
-    font-weight: bold;
-    line-height: 50%;
+  width: 50%;
+  size: 70px;
+  margin-top: 10%;
+  color: white;
+  margin-right: 30px;
+  font-weight: bold;
+  line-height: 50%;
 }
 
 .all {
-    margin-inline-start: 20px;
-    height: 30%;
-    font-weight: bold;
+  margin-inline-start: 20px;
+  height: 30%;
+  font-weight: bold;
 }
 
 a:hover {
-    border: 2px white solid;
-    box-shadow: 20px;
+  border: 2px white solid;
+  box-shadow: 20px;
+}
+.keep {
+  position: absolute;
+  bottom: 55%;
+  top: 55%;
+  background-color: rgb(255, 255, 255);
+  height: 55%;
+  width: 25%;
+  padding-top: 20px;
+  left: 10px;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+
+  text-align-last: center;
+}
+.keep1 {
+  position: absolute;
+  bottom: 55%;
+  top: 55%;
+  background-color: rgb(255, 255, 255);
+  height: 55%;
+  width: 25%;
+  padding-top: 20px;
+  left: 400px;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+}
+.keep2 {
+  position: absolute;
+  bottom: 55%;
+  top: 55%;
+  background-color: rgb(255, 255, 255);
+  height: 55%;
+  width: 25%;
+  padding-top: 20px;
+  left: 790px;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+}
+.small {
+  position: absolute;
+  bottom: 55%;
+  top: 55%;
+  background-color: rgb(255, 255, 255);
+  height: 25%;
+  width: 25%;
+  padding-top: 20px;
+  left: 1180px;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+}
+.thank {
+  position: absolute;
+  top: 55%;
+}
+.credit_bill {
+  position: absolute;
+  left: 720px;
+  top: 55%;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 500px;
+  font-size: 20px;
+  font-weight: bold;
 }
